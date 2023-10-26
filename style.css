@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 10%;
+    margin: 10px;
+    height: 23px;
+    border: 1pX solid black;
+
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+tr {
+    width: 100px
+}
+td {
+    padding: 11px 40px;
+    text-align: justify;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px ;
+    border: 1px solid black; /* Add an inner border to each ul */
+}
+
+li::before {
+    content: "• ";
+    color: black; /* Bullet point color */
+}
+.table-header h2 {
+    border: 1px solid black; /* Add an inner border to the table headers */
+    padding: 13px;
+}
+
+h2 {
+    font-size: 16px;
+}
